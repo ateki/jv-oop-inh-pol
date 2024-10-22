@@ -1,8 +1,8 @@
 package com.northcoders.shapes;
 
 public class Rectangle extends Shape {
-    private float length;
-    private float width;
+    protected float length;
+    protected float width;
 
     public Rectangle(float length, float width) {
         this.length = length;

@@ -1,7 +1,7 @@
 package com.northcoders.shapes;
 
 public abstract class Shape3D {
-    protected Shape base;
+    public Shape base;
 
     public abstract double calculateVolume();
 
