@@ -1,17 +1,15 @@
 package com.northcoders.shapes;
 
 public class Cube extends Shape3D {
-    public Rectangle base;
 
-    private Cube(Rectangle size) {
-
+    private Cube(Rectangle base) {
+        this.base = base;
     }
 
     public Cube(int size) {
         this(new Rectangle(size, size));
+        // private constructor
     }
-
-
 
     @Override
     public  double calculateVolume() {
